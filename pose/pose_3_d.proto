@@ -5,7 +5,7 @@ import "spatial/rotation/quaternion.proto";
 import "spatial/translation/translation_3_d.proto";
 
 message Pose3D {
-  google.protobuf.Timestamp timestamp = 1;
-  make87.spatial.translation.Translation3D translation = 2;
-  make87.spatial.rotation.Quaternion rotation = 3;
+    google.protobuf.Timestamp timestamp = 1;
+    make87.spatial.translation.Translation3D translation = 2;
+    make87.spatial.rotation.Quaternion rotation = 3;
 }

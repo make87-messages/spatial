@@ -3,6 +3,6 @@ package make87.spatial.translation;
 import "google/protobuf/timestamp.proto";
 
 message Translation1D {
-  google.protobuf.Timestamp timestamp = 1;
-  float x = 2;
+    google.protobuf.Timestamp timestamp = 1;
+    float x = 2;
 }
