@@ -1,0 +1,11 @@
+syntax = "proto3";
+package make87.spatial.pose;
+import "google/protobuf/timestamp.proto";
+import "spatial/translation/Translation3D.proto";
+import "spatial/rotation/Quaternion.proto";
+
+message Pose3D {
+  google.protobuf.Timestamp timestamp = 1;
+  make87.spatial.translation.Translation3D translation = 2;
+  make87.spatial.rotation.Quaternion rotation = 3;
+}

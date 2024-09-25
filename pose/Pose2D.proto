@@ -1,0 +1,10 @@
+syntax = "proto3";
+package make87.spatial.pose;
+import "google/protobuf/timestamp.proto";
+import "spatial/translation/Translation2D.proto";
+
+message Pose2D {
+  google.protobuf.Timestamp timestamp = 1;
+  make87.spatial.translation.Translation2D translation = 2;
+  float rotation = 3;
+}
