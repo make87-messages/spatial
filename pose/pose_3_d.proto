@@ -1,8 +1,8 @@
 syntax = "proto3";
 package make87.spatial.pose;
 import "google/protobuf/timestamp.proto";
-import "spatial/translation/translation_3_d.proto";
 import "spatial/rotation/quaternion.proto";
+import "spatial/translation/translation_3_d.proto";
 
 message Pose3D {
   google.protobuf.Timestamp timestamp = 1;
