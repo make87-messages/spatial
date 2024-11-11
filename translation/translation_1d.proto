@@ -1,5 +1,5 @@
 syntax = "proto3";
-package make87_messages.spatial.translation;
+package make87_messages_spatial.translation;
 import "google/protobuf/timestamp.proto";
 
 message Translation1D {
